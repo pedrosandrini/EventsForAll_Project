@@ -4,7 +4,7 @@ namespace EventsForAll.Events.UnitTests.Domain.Event;
 
 public class EventTest
 {
-    [Fact(DisplayName = "")]
+    [Fact(DisplayName = "Should create event when data is valid")]
     [Trait("Event", "Unit")]
     public void CreateEvent_ShouldCreateEvent_WhenDataIsValid()
     {

@@ -17,8 +17,8 @@ jobs:
       fail-fast: false
       matrix:
         project:
-          - SampleApp/BackEnd/BackEnd.csproj
-          - SampleApp/FrontEnd/FrontEnd.csproj
+          - EventsForAll/EventsForAll.Events/EventsForAll.Events.csproj
+          
 
     steps:
       - name: Checkout repository
